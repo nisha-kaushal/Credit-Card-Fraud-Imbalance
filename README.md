@@ -1,2 +1,7 @@
-# Credit-Card-Fraud-Imbalance
-Contains files for the "Credit Card Fraud: Oversampling vs. Undersampling" project. 
+# Detecting Credit Card Fraud with Imbalanced Data: Oversampling vs. Undersampling
+
+### Goal: 
+
+### Data Source: 
+The data can be found on Kaggle, here: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraudn <br> 
+(note that the file itself exceeds GitHub's limit) <br> 
