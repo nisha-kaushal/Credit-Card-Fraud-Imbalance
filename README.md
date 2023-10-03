@@ -5,3 +5,6 @@ Credit card fraud detection using labeled data is one of the main basic projects
 ### Data Source: 
 The data can be found on Kaggle, here: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud <br> 
 (note that the file itself exceeds GitHub's limit) <br> 
+
+Boxplot for all transactions: <br>
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/d6513100-c3d4-4101-843c-3391c37ca06a)
