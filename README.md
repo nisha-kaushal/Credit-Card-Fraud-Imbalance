@@ -26,3 +26,19 @@ Transactions over time <br>
 Day 1 vs. Day 2 amount of fraud transactions <br> 
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/66e613eb-f48b-4b02-8cdb-c3526fbb9a2c)
 
+Confusion Matrix, Random Forest with Oversampling
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/059e42c1-8571-40b3-acd8-417941043de0)
+
+
+Confusion Matrix, Random Forest with Undersampling
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/afe593fd-5e71-4638-8cc9-672ebc36f851)
+
+Confusion Matrix, K-Nearest Neighbors with Oversampling 
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/3e3ee112-8d5f-480c-b823-d34e4fd5867c)
+
+
+Confusion Matrix, K-Nearest Neighbors with Undersampling
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/b997f03f-0097-45e5-89a7-fe82b999a2c7)
+
+
+
