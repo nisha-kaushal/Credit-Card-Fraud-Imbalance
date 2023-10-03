@@ -26,19 +26,19 @@ Transactions over time <br>
 Day 1 vs. Day 2 amount of fraud transactions <br> 
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/66e613eb-f48b-4b02-8cdb-c3526fbb9a2c)
 
-Confusion Matrix, Random Forest with Oversampling
-![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/059e42c1-8571-40b3-acd8-417941043de0)
+Confusion Matrix, Random Forest with Oversampling <br>
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/0260119c-9719-434a-a2e1-9636cddf7e35)
+
+Confusion Matrix, Random Forest with Undersampling <br>
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/d3e6e239-4aa8-4d97-85ad-3d29669c00f3)
 
 
-Confusion Matrix, Random Forest with Undersampling
-![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/afe593fd-5e71-4638-8cc9-672ebc36f851)
+Confusion Matrix, K-Nearest Neighbors with Oversampling <br>
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/21cf9ef9-c152-4c6a-8b4a-15da7fbb71c3)
 
-Confusion Matrix, K-Nearest Neighbors with Oversampling 
-![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/3e3ee112-8d5f-480c-b823-d34e4fd5867c)
+Confusion Matrix, K-Nearest Neighbors with Undersampling <br> 
+![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/2605536a-a163-41ee-9d64-fd9e1c6653bf)
 
-
-Confusion Matrix, K-Nearest Neighbors with Undersampling
-![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/b997f03f-0097-45e5-89a7-fe82b999a2c7)
 
 
 
