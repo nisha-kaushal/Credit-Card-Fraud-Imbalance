@@ -6,7 +6,13 @@ Credit card fraud detection using labeled data is one of the main basic projects
 The data can be found on Kaggle, here: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud <br> 
 (note that the file itself exceeds GitHub's limit) <br> 
 
-### Data Analysis
+### Skills Used: 
+* Python Programming
+* Exploratory Data Analysis
+* Supervised Learning Classification
+* Visualization (Plotly) 
+
+## Data Analysis
 The first part of this project comprises of exploratory data analysis. 
 
 To begin, I found the descriptive statistics of all transactions, which can be found in the boxplot below: <br>
@@ -36,8 +42,8 @@ Day 1 vs. Day 2 amount of fraud transactions <br>
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/66e613eb-f48b-4b02-8cdb-c3526fbb9a2c) <br>
 There were about 70 less fraud transactions on day 2 than day 1. 
 
-### Oversampling vs. Undersampling
-#### Oversampling
+## Oversampling vs. Undersampling
+### Oversampling
 **Oversampling** is adding synthetic data to the minority class, in order to make the amount of data evenly distributed (balanced) among each class. <br>
 For Oversampling, I used the **Synthetic Minority Oversampling Technique** (SMOTE). Essentially, when applied, SMOTE looks into the k-nearest neighbors of the minority class, and chooses synthetic data based on those neighbors. SMOTE can be applied using the [imblearn library](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html).<br> 
 ***Steps to implement SMOTE:*** <br> 
@@ -48,7 +54,7 @@ For Oversampling, I used the **Synthetic Minority Oversampling Technique** (SMOT
 
 After implementing, the both classes had ***284315 transactions (568630 transactions in total)***
 
-#### Undersampling 
+### Undersampling 
 **Undersampling** reduces the amount of data from the majority class, to match the amount of data of the minority class. 
 There are several undersampling techniques that can be used. For this project, I used **Near Miss Undersampling**. There are 3 versions of NearMiss, and for the purpose of this notebook, I used Version 3, as described below: <br> 
 ***Version 3 of the Near Miss Undersampling keeps an example from the majority class for each closest record of the minority class. It should result in an increased accuracy, as it takes into consideration the  majority class values near the decision boundary***<br>
@@ -73,7 +79,7 @@ Confusion Matrix, K-Nearest Neighbors with Undersampling <br>
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/2605536a-a163-41ee-9d64-fd9e1c6653bf)
 
 
-### Oversampling vs. Undersampling- Which to Choose? 
+## Oversampling vs. Undersampling- Which to Choose? 
 
 
 
