@@ -37,6 +37,27 @@ Day 1 vs. Day 2 amount of fraud transactions <br>
 There were about 70 less fraud transactions on day 2 than day 1. 
 
 ### Oversampling vs. Undersampling
+#### Oversampling
+**Oversampling** is adding synthetic data to the minority class, in order to make the amount of data evenly distributed (balanced) among each class. <br>
+For Oversampling, I used the **Synthetic Minority Oversampling Technique** (SMOTE). Essentially, when applied, SMOTE looks into the k-nearest neighbors of the minority class, and chooses synthetic data based on those neighbors. SMOTE can be applied using the [imblearn library](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html).<br> 
+***Steps to implement SMOTE:*** <br> 
+1. import imblearn.oversampling 
+2. create a SMOTE object, using sampling_strategy = 'minority" 
+3. fit the object to the data to get oversampled X values and oversampled Y values
+4. concatenate the oversampled X's and Y's into one dataframe
+
+After implementing, the both classes had ***284315 transactions (568630 transactions in total)***
+
+#### Undersampling 
+**Undersampling** reduces the amount of data from the majority class, to match the amount of data of the minority class. 
+There are several undersampling techniques that can be used. For this project, I used **Near Miss Undersampling**. There are 3 versions of NearMiss, and for the purpose of this notebook, I used Version 3, as described below: <br> 
+***Version 3 of the Near Miss Undersampling keeps an example from the majority class for each closest record of the minority class. It should result in an increased accuracy, as it takes into consideration the  majority class values near the decision boundary***<br>
+
+The steps to implement NearMiss is similar to implementing SMOTE, except NearMiss is imported from imblearn.undersampling. After implementing, the both classes had ***492 transactions (984 transactions in total)***.
+
+For this project, I implemented 4 different classification algorithms to classify transactions as fraud, or non-fraud: Random Forest, Decision Trees, Logistic Regression, and K-Nearest Neighbors. All algorithms were implemented with the oversampled data and the undersampled data, using identical hyperparameters. 
+
+As a result, **oversampling** resulted in 95%+ accuracy scores, recall scores, and precision scores for all models. Undersampling, on the otherhand, showed a decrease of the three metrics. 
 
 Confusion Matrix, Random Forest with Oversampling <br>
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/0260119c-9719-434a-a2e1-9636cddf7e35)
@@ -50,6 +71,9 @@ Confusion Matrix, K-Nearest Neighbors with Oversampling <br>
 
 Confusion Matrix, K-Nearest Neighbors with Undersampling <br> 
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/2605536a-a163-41ee-9d64-fd9e1c6653bf)
+
+
+### Oversampling vs. Undersampling- Which to Choose? 
 
 
 
