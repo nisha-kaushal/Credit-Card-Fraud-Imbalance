@@ -85,8 +85,9 @@ Comparing the Random Forest Classifiers, which were the strongest models overall
 
 Comparing the K-Nearest Neighbors Classifiers, the overall weakest models, 6.3% of the oversampling normal data were incorrectly classified as "fraud", and 2.9% of the fraud data were incorrectly classified as "normal". In the undersampling model, **39.2%** of the normal data were incorectly labeled as "fraud", and **44.7%** of the fraud data was incorrectly labeled as "normal". 
 
+These findings are expected, for the reasons that will be discussed in the next section.
+
 ## Oversampling vs. Undersampling- Which to Choose? 
-
-
-
+### Oversampling vs Undersampling 
+Undersampling and Oversmapling both have certain pros and cons, mainly due to the amount of data. In particular, Oversampling leads to a vast amount of data for use, which does tend to lead to higher accuracy as there is more data acting as examples for the models to learn from. However, the larger amount of data, the higher amount of computing power needed for the models to run efficiently. If not enough computing power is available, the models will take a long time to run. Undersampling, on the otherhand, significantly decreased the amount of data, and allowed for a faster runtime for all models. However, there was also a dramatic decrease in accuracy/precision/recall. From this notebook, it seems that undersampling would be best used if a project can sacrifice a bit of accuracy for an increased run time. Undersampling could also lead to successful results if the imbalance were not as extreme as in this project, where only 0.173% of the transctions were fraud. Oversampling would be best where a large amount of data can be handled, so that the project can have the higher accuracy. 
 
