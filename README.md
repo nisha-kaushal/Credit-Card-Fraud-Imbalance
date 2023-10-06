@@ -68,20 +68,22 @@ Below is an example of differences between the oversampling and undersampling mo
 
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/0260119c-9719-434a-a2e1-9636cddf7e35)
 
-Confusion Matrix, Random Forest with Undersampling <br>
+
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/d3e6e239-4aa8-4d97-85ad-3d29669c00f3)
 
 
-Confusion Matrix, K-Nearest Neighbors with Oversampling <br>
+
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/21cf9ef9-c152-4c6a-8b4a-15da7fbb71c3)
 
-Confusion Matrix, K-Nearest Neighbors with Undersampling <br> 
+
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/2605536a-a163-41ee-9d64-fd9e1c6653bf)
 
 #### Findings
 Note that confusion matrices were made for the other classifiers as well, and showed a similar amount of difference as Random Forest saw between sampling types. 
 
+Comparing the Random Forest Classifiers, which were the strongest models overall, 0.0035% of the "normal" (non-fraud) transactions were incorrectly classified as "fraud" with the oversampling technique, and all the fraud transactions were correctly classified as fraud. In the undersampling model, 2.6% of the normal transactions were incorrectly classified as "fraud", while 8.4% of the fraud transactions were classified as "normal." 
 
+Comparing the K-Nearest Neighbors Classifiers, the overall weakest models, 6.3% of the oversampling normal data were incorrectly classified as "fraud", and 2.9% of the fraud data were incorrectly classified as "normal". In the undersampling model, **39.2%** of the normal data were incorectly labeled as "fraud", and **44.7%** of the fraud data was incorrectly labeled as "normal". 
 
 ## Oversampling vs. Undersampling- Which to Choose? 
 
