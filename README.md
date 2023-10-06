@@ -65,7 +65,7 @@ For this project, I implemented 4 different classification algorithms to classif
 As a result, **oversampling** resulted in 95%+ accuracy scores, recall scores, and precision scores for all models. Undersampling, on the otherhand, showed a decrease of the three metrics. 
 
 Below is an example of differences between the oversampling and undersampling models for the Random Forest Classifiers and the K-Nearest Neighbors Classifiers: 
-Confusion Matrix, Random Forest with Oversampling <br>
+
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/0260119c-9719-434a-a2e1-9636cddf7e35)
 
 Confusion Matrix, Random Forest with Undersampling <br>
@@ -77,6 +77,10 @@ Confusion Matrix, K-Nearest Neighbors with Oversampling <br>
 
 Confusion Matrix, K-Nearest Neighbors with Undersampling <br> 
 ![image](https://github.com/nisha-kaushal/Credit-Card-Fraud-Imbalance/assets/100887571/2605536a-a163-41ee-9d64-fd9e1c6653bf)
+
+#### Findings
+Note that confusion matrices were made for the other classifiers as well, and showed a similar amount of difference as Random Forest saw between sampling types. 
+
 
 
 ## Oversampling vs. Undersampling- Which to Choose? 
